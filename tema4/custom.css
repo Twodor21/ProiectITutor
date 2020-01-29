@@ -1,0 +1,175 @@
+/* Css for index.html */
+#body1,#body2,#body3{
+	margin: 0px;
+	padding: 0px;
+}
+#body1 h1{
+	text-align: center;
+}
+#body1 #id1{
+	background-color: red;
+	color: white;
+	width: 30%;
+	padding: 5px;
+	margin: 10px;
+
+}
+#body1 #div1{
+	width: 100%;
+	height: 50vh;
+	background-image: url("https://www.w3schools.com/html/img_girl.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+#body1 a{
+	text-decoration: none;
+	color: pink;
+}
+#body1 table#t1{
+	width: 100%;
+	border-spacing: 5px;
+}
+#t1 th,td{
+	border: 1px solid gray;
+}
+#t1 tr:nth-child(even){
+	background-color: #eee;
+}
+#t1 tr:nth-child(odd){
+	background-color: #fff;
+}
+#body1 span{
+	color: red;
+}
+#body1 #div2{
+	background-color: powderblue;
+	margin-bottom: 100px;
+}
+
+/* Css for tema4css.html*/
+
+#body2 h1{
+	text-align: center;
+	width: 100%;
+	background-color: black;
+	color: orange;
+	margin: 0px;
+	padding: 25px;
+	border-bottom: 3px solid orange;
+}
+#body2 #div4{
+	padding: 20px;
+	border: 1px solid gray;
+	text-align: center;
+	margin: auto;
+}
+#body2 #div3{
+	padding: 20px;
+	text-align: center;
+	border: 2px solid red;
+}
+#body2 #div2{
+	padding: 20px;
+	text-align: center;
+	border: 2px dashed orange;
+}
+#body2 #div1{
+	padding: 20px;
+	width: 40%;
+	text-align: center;
+	border: 2px dotted blue;
+	margin-left: 15px;
+}
+#wrapper{
+	margin-left: 15px;
+	margin-bottom: 100px;
+}
+#body2 #out1{
+	font-weight: bold;
+	padding: 5px;
+	border: 1px solid red;
+	outline: 3px dashed green;
+	outline-offset: 10px;
+	width: 50%;
+}
+.align{
+	width: 30%;
+	padding: 10px;
+	margin-left: 20px;
+	border: 1px solid pink;
+}
+.align #left{
+	text-align: left;
+}
+.align #center{
+	text-align: center;
+}
+.align #right{
+	text-align: right;
+}
+.align #justified{
+	text-align: justify;
+}
+.align .upper{
+	text-transform: uppercase;
+}
+.align .lower{
+	text-transform: lowercase;
+}
+.align .capitalize{
+	text-transform: capitalize;
+}
+.align .indent{
+	text-indent: 15px;
+}
+.align h2{
+	letter-spacing: 3px;
+}
+.align h3{
+	letter-spacing: -3px;
+}
+p.small {
+  line-height: 0.8;
+}
+p.big {
+  line-height: 1.8;
+}
+.align .ws1{
+	word-spacing: 10px;
+}
+.align .ws2{
+	word-spacing: -5px;
+}
+.align #shad{
+	text-shadow: 3px 2px red;
+}
+.align .serif{
+	font-family: "timesn new roman", Times, Serif;
+}
+.align .sans{
+	font-family: "Verdana", Sans-serif;
+}
+.align #em{
+	font-size: 1.5em;
+}
+.align #vw{
+	font-size: 1.5vw;
+}
+.align #variant{
+	font-variant: small-caps;
+}
+
+/* Css for tema4js.html*/
+#body3 h1:first-child{
+	text-align: center;
+	margin: 0px;
+	padding: 25px;
+	background-color: black;
+	color: orange;
+}
+#body3 .container{
+	border: 1px solid navy;
+	width: 35%;
+	margin-left: 15px;
+	padding: 10px;
+}
