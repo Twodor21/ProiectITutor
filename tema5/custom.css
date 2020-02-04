@@ -1,0 +1,135 @@
+/*CSS for index.html*/
+#b1{
+	margin: 5px 0px 100px 10px;
+}
+#b1 h1{
+	text-align: center;
+}
+#b1 .cl1{
+	text-transform: capitalize;
+	font-variant: small-caps;
+}
+#b1 .cl2{
+	color: red;
+}
+/*CSS for tema5css.html*/
+#b2{
+	margin: 0px;
+	padding: 0px;
+	background-color: lightgray;
+}
+#b2 h1{
+	margin: 0;
+	padding: 25px;
+	text-align: center;
+	background-color: black;
+	color: orange;
+}
+#b2 #container{
+	margin-left: 20px;
+	margin-bottom: 100px;
+}
+#b2 #l1{
+	text-decoration: none;
+	color: orange;
+	font-weight: bold;
+}
+#b2 #l1:hover{
+	color: red;
+}
+#b2 #l2{
+	padding: 10px;
+	background-color: red;
+	color: white;
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: none;
+}
+#b2 #l2:link{
+	color: white;
+}
+/* visited link */
+#b2 #l2:visited {
+  
+}
+
+/* mouse over link */
+#b2 #l2:hover {
+  color: black;
+  background-color: rgb(230,0,0);
+}
+
+/* selected link */
+#b2 #l2:active {
+  color: blue;
+}
+#b2 ul{
+	list-style-image: url("img1.jpg");
+	list-style-position: inside;
+}
+#b2 #list{
+	list-style: square outside url("img1.jpg");
+}
+#b2 ol{
+	background-color: orange;
+	padding: 20px;
+}
+#b2 ol li{
+	background-color: lightpink;
+	padding: 5px;
+}
+#b2 table{
+	background-color: white;
+	width: 30%;
+}
+#b2 th,#b2 td{
+	padding: 3px 8px;
+	text-align: left;
+	border-bottom: 1px solid gray;
+	width:33%;
+}
+#b2 tr:nth-child(even){
+	background-color: lightgray;
+}
+#b2 tr:hover{
+	background-color: orange;
+	color: white;
+	font-weight: bold;
+}
+#b2 th{
+	background-color: green;
+	color: white;
+	font-weight: bold;
+	padding: 10px;
+}
+/*CSS for tema5js.html*/
+#b3{
+	margin: 0px;
+	padding: 0px;
+}
+#b3 h1{
+	margin: 0;
+	padding: 25px;
+	text-align: center;
+	background-color: black;
+	color: orange;	
+}
+#b3 table{
+	width: 30%;
+	margin: 0px;
+	margin-left: 10px;
+	border-collapse: collapse;
+}
+#b3 tr:hover{
+	background-color: lightgray;
+}
+#b3 th,#b3 td{
+	width: 49%;
+	padding: 3px 8px;
+	border-bottom: 1px solid gray;
+}
+#b3 th{
+	padding: 12px;
+	color: white;
+	background-color: green;
+}

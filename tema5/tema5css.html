@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<!--HEAD-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">	
+	<title>Tema5css</title>
+	<link rel="stylesheet" type="text/css" href="custom.css">
+	<!--Bootstrap Icons-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!--Google Icons-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<!--BODY-->
+<body id="b2">
+	<h1>Tema Css 5</h1>
+	<div id="container">
+		<h3><b>*CSS Icons</b></h3>
+		<p>Bootstrap Icons<br/>
+			<i class="glyphicon glyphicon-cloud"></i>
+			<i class="glyphicon glyphicon-user"></i>
+			<i class="glyphicon glyphicon-envelope"></i>
+			<i class="glyphicon glyphicon-thumbs-up"></i>
+		</p>
+		<p>Google Icons<br/>
+			<i class="material-icons">cloud</i>
+			<i class="material-icons">favorite</i>
+			<i class="material-icons">attachment</i>
+			<i class="material-icons">computer</i>
+			<i class="material-icons">traffic</i>
+		</p>
+		<h3><b>*CSS Links</b></h3>
+		<p><a href="index.html" id="l1">Tema HTML 5 Link</a></p>
+		<p><a href="tema5js.html" id="l2">Tema JS 5</a></p>
+		<h3><b>*CSS Lists</b></h3>
+		-Unordered list
+		<ul>
+			<li>item1</li>
+			<li>item2</li>
+			<li>position inside</li>
+		</ul>
+		<ul id="list">
+			<li>Position outside</li>
+			<li>Position outside</li>
+		</ul>
+		<ol>
+			<li>list item1</li>
+			<li>list item2</li>
+		</ol>
+		<h3><b>*CSS Tables</b></h3>
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Car</th>
+			</tr>
+			<tr>
+				<td>Tudor</td>
+				<td>27</td>
+				<td>Mercedes</td>
+			</tr>
+			<tr>
+				<td>Anda</td>
+				<td>25</td>
+				<td>Rover</td>
+			</tr>
+			<tr>
+				<td>Vasile</td>
+				<td>30</td>
+				<td>Volvo</td>
+			</tr>
+		</table>
+		<h3><b>*CSS Layout display</b></h3>
+		-The display property is the most important CSS property for controlling layout.
+		<div id="div1">
+			<br/><p>-Here is a content that will disappear with <br/>display:none</p>
+			<button onclick="fc1();">Erase content</button>
+		</div>
+		<script type="text/javascript">
+			function fc1(){
+				document.getElementById("div1").style.display="none";
+			}
+		</script>
+	</div>
+</body>
+</html>

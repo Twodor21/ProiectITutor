@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!--Head-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>Tema 5 HTML</title>
+	<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<!--BODY-->
+<body id="b1">
+	<h1>Tema HTML 5</h1>
+	<hr/>
+	<!--New chapter-->
+	<h3><b>*HTML Classes</b></h3>
+	<span class="cl1 cl2">-An HTML element can inherit 2 or more classes
+		(Class1 and Class2 here)</span><br/>
+	<p>- HTML elements can be accessed in JavaScript with 
+		document.getElementsByClassName("className");</p>
+	<span class="cl3">Class 3<br/></span>
+	<span class="cl3">Class 3<br/></span>
+	<span class="cl3">Class 3<br/></span>
+	<button onclick="f1();">Hide/Show class 3</button>
+	<!--JS script-->
+	<script type="text/javascript">
+		var x = document.getElementsByClassName("cl3");
+		for(var i=0;i<x.length;i++)
+			x[i].style.display="inline";
+
+		function f1(){		
+			for(var i=0;i<x.length;i++)	
+				if(x[i].style.display=="inline"){	
+					x[i].style.display="none";
+				}else{
+					x[i].style.display="inline";
+				}
+
+		}
+	</script>
+	<!--New chapter-->
+	<h3><b>*HTML ID</b></h3>
+	-The Html Id is an attribute that specifies a unique id for an HTML element.<br/>
+	-It can be accessed in Css with "#"+ID or in 
+		JavaScript by document.getElementById(ID);
+	<h3><b>*HTML Iframes</b></h3>
+	-The Iframes are used in general to diplay a webpage within a webpage
+	<iframe height="300px" width="100%" src="tema5css.html" name="iframe1"></iframe>
+	<p><a href="tema5js.html" target="iframe1">Go to -Tema 5 JS</a></p>
+	<!--New chapter-->
+	<h3><b>*HTML JavaScript</b></h3>
+	-JavaScript makes HTML pages more dynamic and interactive.
+	<p id="demo">This Paragraph will be accessed by JS and the content will be changed when the button below is clicked</p>
+	<button onclick="f2();">Change content</button>
+	<!--JS script-->
+	<script>
+		function f2(){
+			document.getElementById("demo").innerHTML = "Hello JavaScript!";
+		}
+	</script>
+	<noscript>Sorry, your browser does not support JavaScript!</noscript>
+	<!--New chapter-->
+	<h3><b>*HTML File Paths</b></h3>
+	-A file path describes the location of a file in a web site's folder structure.<br/>
+		File paths are used when linking to external files like:
+			Web pages, Images, Style sheets, JavaScripts.<br/>
+	<p>-An absolute file path is the full URL to an internet file:<br/>
+	&lt;img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
+	</p>
+	<img src="https://www.w3schools.com/images/picture.jpg" alt="Mountain">
+</body>
+</html>
