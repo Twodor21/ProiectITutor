@@ -1,0 +1,24 @@
+1. <php>
+ Care este diferenta dintre 
+$name = $_REQUEST['fname'];
+si
+$name = $_POST['fname'];
+?
+
+2. <php>
+ ce face mai exact $_GET['subject'] ?
+
+3. <css>
+#body2 .center2{
+	height: 200px;
+	position: relative;
+	border: 3px solid green;
+}
+.center2 p{
+	margin: 0;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+Cum functioneaza mai exact transform: translate(-50%,-50%); ???

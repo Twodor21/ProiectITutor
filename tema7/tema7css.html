@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>CSS 7</title>
+	<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body id="body2">
+	<h1>CSS 7</h1>
+	<p>Css Align</p>
+	<div>
+		<p>This element is horizontally centered
+			<br />with margin:auto; and text-align:center;</p>
+	</div>
+	<img src="https://www.w3schools.com/css/paris.jpg" alt="Paris">
+	<div class="right">Right align with <br />position:absolute; and right:0;</div>
+	<div class="second">
+		float: right; and overflow:auto;
+		<img src="https://www.w3schools.com/css/pineapple.jpg" alt="Pineapple">
+	</div>
+	<div class="center">I am vertically centered<br />with padding: 70px 0;</div>
+	<div class="center2"><p>Vertically Centered with 
+		<br />position: relative; position:absolute;
+		<br /> top:50%; left:50%;
+		<br/>transform: translate(-50%,-50); </p>
+	</div>
+	<p>Css Combinators</p>
+	<div class="greater">
+		<h3> > combinator</h3>
+		<p>Paragraph 1 in the div.</p>
+		<p>Paragraph 2 in the div.</p>
+		<section><p>Paragraph 3 in the div.</p></section> <!-- not Child but Descendant -->
+		<p>Paragraph 4 in the div.</p>
+	</div>
+	<p></p>
+	<div class="plus">
+		<h3>+ Combinator</h3>
+		<div>
+			<p>Paragraph 1 in the div.</p>
+			<p>Paragraph 2 in the div.</p>
+		</div>
+		<p>Paragraph 3. Not in a div.</p>
+		<p>Paragraph 4. Not in a div.</p>
+	</div>
+	<p></p>
+	<div class="tilda">
+		<h3>~ Combinator</h3>
+		<p>Paragraph 1 Not in the div.</p>
+		<div>
+			<p>Paragraph 2 in the div.</p>
+		</div>
+		<p>Paragraph 3. Not in a div.</p>
+		<h4>Heading 4. Not in a div</h4>
+		<p>Paragraph 4. Not in a div.</p>
+	</div>
+	<p>Css Pseudo-classes</p>
+	<div class="link">
+		Test this link(on hover, when is visited, keep it active)
+		<br /><a href="https://www.w3schools.com/css">W3schools
+			<p class="Tooltip">Tooltip</p></a>
+	</div>
+	<div class="divsp">
+		<p>This is some text.(first child)</p>
+		<p>This is some text.</p>
+	</div>
+	<p>Css Pseudo-elements</p>
+	<div class="divspp">
+		<p>You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>
+		<h3>Some h3 elements with a smiley face</h3>
+		<h3>::before and ::after them.</h3>		
+		<h4>Select this text(It's modified with ::selection)</h4>
+	</div>
+	<p>Css Opacity</p>
+	<div class="container">
+		<p>Hover over the images</p>
+		<img src="https://www.w3schools.com/css/img_forest.jpg" alt="Forest" width="230" height="160">
+		<img src="https://www.w3schools.com/css/img_mountains.jpg" alt="Mountains" width="230" height="160">
+		<img src="https://www.w3schools.com/css/img_5terre.jpg" alt="Italy" width="230" height="160">
+		<div class="wrapper">
+			<p>Observe that childs have the same opacity</p>
+			<div class="insider">opacity 1</div>
+			<div class="insider">opacity 0.6</div>
+			<div class="insider">opacity 0.3</div>
+			<div class="insider">opacity 0.1</div>
+		</div>
+		<div class="wrapper">
+			<p>Observe that childs are not affected by transparency</p>
+			<div class="insider2">Rgba: 1</div>
+			<div class="insider2">rgba: 0.6</div>
+			<div class="insider2">rgba: 0.3</div>
+			<div class="insider2">rgba: 0.1</div>
+		</div>
+	</div>
+</body>
+</html>
