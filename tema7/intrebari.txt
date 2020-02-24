@@ -22,3 +22,16 @@ $name = $_POST['fname'];
 	transform: translate(-50%,-50%);
 }
 Cum functioneaza mai exact transform: translate(-50%,-50%); ???
+
+4. <html&css>
+
+de ce cand am introdus
+<base href="https://www.w3schools.com/css/">
+nu imi mai ia in considerare custom.css ul meu? si nu imi mai stilizeaza pagina
+
+5. JS
+function myFunction() {
+  points.sort(function(a, b){return a - b});
+  document.getElementById("demo").innerHTML = points;
+}
+cum sorteaza aceasta functie?

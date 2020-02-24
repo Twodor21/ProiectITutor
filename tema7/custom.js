@@ -56,3 +56,5 @@ document.write("<p>The first element of the array is "+array[0]+"</p>");
 document.write("<p>Deleting elemets to an Array with delete array[\"index\"];</p>");
 delete array[4];
 document.write("<p>The value of the array[4] is "+array[4]+"</p>");
+array.reverse();
+document.write("<p>The array sorted descending <br />"+array+"</p>");
