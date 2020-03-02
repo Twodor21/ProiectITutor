@@ -1,0 +1,185 @@
+#can1{
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+#body2{
+	padding: 0;
+	margin: 0;
+}
+#body2 h1{
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+	color: gold;
+	background-color: black;
+	border-bottom: 5px solid gold;
+}
+#body2 #vert{
+	margin-top: 10px;
+	padding: 0;
+	list-style: none;
+	width: 120px;
+	background-color: lightgray;
+}
+#vert li{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+#vert li a{
+	display: block;
+	width: 120px;
+	padding: 8px 0px;
+	text-decoration: none;
+	color: black;
+}
+#vert a:hover:not(.active){
+	background-color: black;
+	color: white;
+}
+#vert .active{
+	background-color: green;
+	color: white;
+}
+#body2 .div1{
+	padding: 0;
+	width: 60%;
+	height: 50vh;
+	overflow: auto;
+	margin: 50px auto;
+	border: 1px solid gray;
+}
+#space{
+	padding: 300px;
+}
+#horiz{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	background-color: lightgray;
+	overflow: hidden;
+	position: sticky;
+	top: 0;
+}
+#horiz li{
+	float: left;
+}
+#horiz a{
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	display: block;
+	width: 120px;
+	padding: 10px;
+}
+#horiz a:hover:not(.active){
+	background-color: black;
+	color: white;
+}
+#horiz .active{
+	background-color: green;
+	color: white;
+}
+#horiz #right{
+	float: right;
+	background-color: black;
+}
+#horiz #right a{
+	color: white;
+}
+#horiz #right a:hover{
+	background-color: green;
+}
+#nav2{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	background-color: lightgray;
+	overflow: hidden;
+	top: 0;	
+}
+#nav2 li > a{
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	display: block;
+	width: 120px;
+	padding: 10px;
+}
+#nav2 li{
+	display: inline-block;
+	float: left;
+}
+.drop-menu{
+	display: none;
+	position: absolute;
+	background-color: lightgray;
+	color: white;
+	min-width: 120px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+#nav2 .drop-menu a{
+	display: block;
+	color: black;
+	min-width: 120px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+.drop:hover .drop-menu{
+	display: block;
+}
+#nav2 .drop-menu a:hover{
+	background-color: gray;
+}
+#nav2 a:hover{
+	background-color: gray;
+	color: white;
+}
+
+.gallery{
+	box-sizing: border-box;
+	border: 1px solid gray;
+	display: inline-block;
+	width: 20%;
+	margin: 20px 2%;
+	float: left;
+}
+.gallery:hover{
+	border: 2px solid black;
+	width: 21%;
+}
+@media(max-width: 1200px){
+	.gallery{
+		width: 45%;
+	}
+}
+@media(max-width: 750px){
+	.gallery{
+		width: 95%;
+	}
+}
+
+p[name]{
+	background-color: orange;
+}
+p[name="atr2"]{
+	background-color: pink;
+}
+
+/*CSS for tema8js.html*/
+#body3 h1,#body4 h1{
+	text-align: center;
+}
+#body4 fieldset{
+	width: 50%;
+	margin: 30px auto;
+}
+#body4 .error{
+	color: red;
+}

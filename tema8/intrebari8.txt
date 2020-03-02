@@ -1,0 +1,5 @@
+1. Css
+ O sa folosim Image Sprites? Se folosesc des?
+2. Daca folosesc un fisier custom.js pentru 2 fisiere html(index.html si tema8js.html)
+pot avea conflicte? e normal?
+ca eu am avut si de aceea am facut fisier custom2.js pentru tema8js.html
