@@ -1,0 +1,314 @@
+#body1 table {
+  width:100%;
+}
+#body1 table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#body1 th,#body1 td {
+  padding: 5px;
+  text-align: left;
+}
+#body1 table.names tr:nth-child(even) {
+  background-color: #eee;
+}
+#body1 table.names tr:nth-child(odd) {
+  background-color:#fff;
+}
+#body1 table.names th {
+  background-color: black;
+  color: white
+}
+#body1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+#body1 li {
+  float: left;
+}
+
+#body1 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#body1 li a:hover {
+  background-color: #111111;
+}
+#body1 iframe{
+	width: 50vw;
+	height: 50vh;
+}
+#body1 #d1{
+	width:51vw;
+	margin: 40px auto;
+}
+/*Css for tema9css.html*/
+#body2{
+	margin: 0;
+	padding: 0;
+}
+#body2 > h1{
+	margin: 0;
+	padding: 25px;
+	width: 100%;
+	border-bottom: 3px solid darkorange;
+	background-color: black;
+	color: darkorange;
+	text-align: center;
+}
+#body2 #search-div{
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+	background-color: grey;
+}
+#search{
+	border: 2px solid gray;
+	border-radius: 5px;
+	width: 20%;
+	padding: 7px 10px 7px 45px;
+	margin-left: 20px;
+	background-image: url('https://www.w3schools.com/css/searchicon.png');
+ 	background-position: 10px 6px; 
+  	background-repeat: no-repeat;
+  	font-size: 18px;
+  	transition: width 0.4s ease-in-out;
+}
+#search:hover{
+	border: 2px solid black;
+	border-radius: 4px;
+	width: 30%;
+}
+#search:focus{
+	outline: none;
+}
+#form-div{
+	width: 50%;
+	margin: 30px auto;
+	background-color: darkgray;
+	padding: 50px;
+	border-radius: 10px;
+}
+#form-div label{
+	font-size: 17px;
+}
+#form-div input[type=text],select, textarea{
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+#form-div textarea{
+	height: 120px;
+	resize: none;
+}
+#form-div input[type=text]:hover,select:hover, textarea:hover{
+	border-bottom: 2px solid orange;
+}
+#form-div input[type=text]:focus,select:focus, textarea:focus{
+	border-bottom: 2px solid orange;
+	outline: none;
+}
+#form-div input[type=submit]{
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background-color: green;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	margin: 20px 0;
+}
+#form-div h2{
+	text-align: center;
+	color: green;
+}
+.container{
+	width: 40%;
+	margin: auto;
+	border: 1px solid gray;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 50px auto;
+}
+.container > h4{
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	color: green;
+}
+.container{
+	counter-reset: section;
+}
+.container h2{
+	counter-reset: subsection;
+}
+.container h2::before{
+	counter-increment: section;
+	content: "S" counter(section)": ";
+}
+.container h3::before{
+	counter-increment: subsection;
+	content: counter(section) "." counter(subsection) " ";
+	margin-left: 25px;
+}
+.container ol{
+	counter-reset: var;
+	list-style-type: none;
+}
+.container li::before{
+	counter-increment: var;
+	content: counters(var,".") " ";
+}
+/*CSS for <div class="layout></div>"*/
+#layout{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: yellow;
+	overflow: hidden;
+	position: relative;
+}
+#layout header{
+	width: 100%;
+}
+#layout h1{
+	width: 100%;
+	margin: 0;
+	padding: 40px;
+	background-color: black;
+	color: red;
+	text-align: center;
+	border-bottom: 3px solid red;
+}
+#layout nav{
+	width: 100%;
+	overflow: hidden;
+	background-color: #333;
+}
+#layout nav a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#layout nav a:hover{
+	background-color: gray;
+}
+#body2{
+	overflow-x: hidden;
+	width: 100%;
+}
+#content{
+	width: 100%;
+}
+#content main{
+	width: 55%;
+	margin: 40px 5px 120px 40px;
+	padding: 20px;
+	background-color: orange;
+	float: left;
+}
+#content .wrapper{
+	border: 1px solid gray;
+	margin: 10px;
+	padding: 10px;
+	width: 90%;
+}
+#content .fake{
+	width: 40%;
+	height: 120px;
+	padding: 20px;
+	text-align: center;
+	background-color: gray;	
+}
+#content aside{
+	float: right;
+	width: 30%;
+	margin: 40px 40px 60px 5px;
+	padding: 20px;
+	background-color: orange;
+}
+#content .awrap{
+	border: 1px solid gray;
+	margin: 10px;
+	padding: 10px;
+	width: 80%;
+	overflow: hidden;
+}
+.awrap .fake2{
+	width: 180px;
+	height: 120px;
+	background-color: gray;
+}
+#layout footer{
+	width: 100%;
+	background-color: black;
+	color: orange;
+	text-align: center;
+	padding: 30px;
+	position: absolute;
+	bottom: 0px;
+}
+#layout footer h1{
+	margin: 0;
+	padding: 0;
+	border-bottom: none;
+}
+@media(max-width: 1200px){
+	#content main{
+		float: none;
+		width: 70%;
+		margin: 40px auto;
+	}
+	#content aside{
+		float: none;
+		width: 50%;
+		margin: 40px auto 120px;
+	}
+
+}
+
+/*CSS for tema9js.html*/
+#body3{
+	margin: 0;
+	padding: 0;
+}
+#body3 h1{
+	background-color: yellow;
+	color: red;
+	margin: 0;
+	padding: 25px;
+	border-bottom: 3px solid red;
+	text-align: center;
+}
+#body3 div{
+	width: 40%;
+	margin: 45px auto;
+}
+#body3 input[type=text]{
+	margin: 5px;
+}
+#body3 button{
+	padding: 5px;
+	margin: 3px;
+	background-color: green;
+	color: red;
+	font-weight: bold;
+	border: none;
+}

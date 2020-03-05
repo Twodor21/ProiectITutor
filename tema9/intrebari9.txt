@@ -1,0 +1,11 @@
+1. css
+Putem stiliza elementul <option> </option> ? din <select></select> ?
+Cum? cu select > option {} nu a mers.
+
+2. Css
+In tema9css.html  am toate elementele de tip h1 si <div> cu width: 100%;
+Dar elementele <h1> sunt mai mai mari in latime decat toata pagina.
+ (adica pot da scroll pe axa x)
+si nu cred ca e normal.. Am reusit sa o fixez cu #body2{ overflow-x: hidden;}
+Dar e normal asa?
+

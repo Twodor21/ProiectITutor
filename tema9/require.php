@@ -1,0 +1,1 @@
+echo "This is a content from require.php";
