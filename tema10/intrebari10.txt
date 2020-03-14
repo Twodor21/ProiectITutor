@@ -1,0 +1,54 @@
+
+ 1. JS
+
+ var v1 = document.getElementById("p1").innerHTML;
+var v2="";
+
+for(i=5;i<=15;i+=2)
+	v1 += i + " ";
+
+de ce nu merge codul de mai sus ca v1 = .innerHTML;
+dar merge codul de mai jos
+
+var v1 = document.getElementById("p1");
+var v2="";
+
+for(i=5;i<=15;i+=2)
+	v1.innerHTML += i + " ";
+
+2. JS 
+
+ La ce ne ajuta  ?
+function (){}.constructor;    
+
+3. PHP 
+$_FILES["fileToUpload"]["tmp_name"]
+? ce este mai exact ["tmp_name"] ?
+
+la fel si pentru $check["mime"] ?
+ce este ["mime"]  ?
+
+
+4 PHP
+
+getimagesize() - verifica si daca este imagine?
+
+5 PHP 
+if (filter_var($int, FILTER_VALIDATE_INT, array("options" => array("min_range"=>$min, "max_range"=>$max))) === false)
+
+partea cu array("options" => array("min_range"= $min ...
+nu prea am inteles-o.
+
+6. SQL 
+
+SELECT * FROM users
+WHERE Prenume LIKE '[TAP]%';
+
+Instructiunea de mai sus nu imi afiseaza nimic.
+
+7. SQL
+
+SELECT Prenume
+FROM users AS Datass;
+
+Prima nu imi afiseaza numele tabelei ca fiind "Datass"
