@@ -1,0 +1,54 @@
+1. JS
+
+In mostenire o clasa nu poate mosteni clasa parinte fara "super()" ?
+
+2. JS
+Cum declaram proprietatile unei clase?
+daca se poate declara in afara constructorului fara:  this.property = "";
+Adica nici in cazul dat nu e o declarare propriu zisa.
+Am incercat cu var property_name; si nu a mers. 
+( var nu era colorat cu albastru deci nu il considera un keyword)
+
+3. PHP
+class Banana extends Fruit {
+		public function __construct($n) {
+			$this->name = $n;
+		}
+
+		public function message() {
+			echo "The fruit name is ".$this->name;
+		}
+	}
+	$banana = new Banana("Banana");
+	echo "<p>The derived class is Banana and banana->message() is ".$banana->message()."</p>";
+
+As doris sa stiu de ce aceaste instructiuni afiseaza mai intai:
+The friut name is banana
+The derived class is Banana and banana->message() is 
+
+dar daca in functia "message()" am scris "return" in loc de "echo" a afisat cum trebuie.
+
+4. SQL
+
+SELECT Nume,gender,height,weight
+FROM users
+FULL JOIN features 
+ON users.userID=features.userID;
+
+La aceasta interogare imi da o eroare si imi spune ca:
+SQL Error (1054): Unknown column 'users.userID' in 
+'on clause'
+Desi am folosit aceleasi campuri si pentru celelalte join-uri.
+si cu "FULL OUTER JOIN" aceasi eroare.
+
+5. SQL
+
+ce face operatorul <> ? in cazul:
+WHERE A.CustomerID <> B.CustomerID
+Aici nu stiu cum sa fac interogarea pentru ca nu imi afiseaza nici un camp
+pentru:
+
+SELECT A.Nume AS Nume1, B.Nume AS Nume2,A.Prenume
+FROM users A, users B
+WHERE A.userID <> B.userID
+AND A.Prenume=B.Prenume;
